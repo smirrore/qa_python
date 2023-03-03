@@ -30,7 +30,7 @@ class BooksCollector:
         return books_with_specific_rating
 
     # получаем словарь books_rating
-    def get_books_rating(self):
+    def get_books_rating(self) -> object:
         return self.books_rating
 
     # добавляем книгу в Избранное
